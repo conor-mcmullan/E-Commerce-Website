@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Driftworks | Specialist Car Parts </title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/styles/StyleMaster.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000080;
+            text-align: center;
+        }
+        .auto-style2 {
+            width: 350px;
+            height: 36px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <div class="header" >
+            
+            <div class="nav" style="background-color:transparent">
+            </div>
+
+            <br />
+
+            <div class="auto-style1">
+                <asp:Image ID="logo" CssClass="auto-style2" AlternateText="logo" runat="server" ImageUrl="~/images/extra/home/header/logo.png" />
+            </div>
+        </div>
+
+        <div class ="nav">
+
+
+            <div class="dropdown">
+  <%--<button class="menubtn">Home</button>--%>
+            <asp:Button ID="btnHome" class="menubtn" runat="server" OnClick="btnHome_Click" Text="Home" />
+  
+</div>
+                    
+            <div class="dropdown">
+  
+    <asp:Button ID="btnProducts" class="menubtn" runat="server" OnClick="btnProducts_Click" Text="Products" />
+
+  <div class="dropdown-content">
+      
+      <asp:LinkButton ID="btnCoilovers" runat="server"  Text="Coilovers" OnClick="btnCoilovers_Click" />
+      <asp:LinkButton ID="btnFlyWheels" runat="server" Text ="Fly Wheels" OnClick="btnFlyWheels_Click" />
+      <asp:LinkButton ID="btnHandBrakes" runat="server" Text="Handbrakes" OnClick="btnHandBrakes_Click" />
+      <asp:LinkButton ID="btnSeats" runat="server" Text="Seats" OnClick="btnSeats_Click" />
+      <asp:LinkButton ID="btnSteeringWheels" runat="server" Text="Steering Wheels" OnClick="btnSteeringWheels_Click" />
+      <asp:LinkButton ID="btnWheelNuts" runat="server" Text="Wheel nuts" OnClick="btnWheelNuts_Click" />
+      <asp:LinkButton ID="btnWheels" runat="server" Text="Wheels" OnClick="btnWheels_Click" />      
+
+  </div>
+</div>
+        
+        <div class="dropdown">
+        <asp:Button ID="btnCart" class="menubtn" runat="server" Text="Cart (0)" OnClick="btnCart_Click" />
+        </div>
+    
+        <div class="dropdown">                
+        <asp:Button ID="btnCheckout" class="menubtn" runat="server" Text="Checkout" OnClick="btnCheckout_Click" />
+        </div>
+
+        <div class="dropdown"> 
+        <asp:Button ID="btnAdminProducts" class="menubtn" runat="server" OnClick="btnAdminProducts_Click" Text="Products" />
+        </div>
+
+        <div class="dropdown">                
+        <asp:Button ID="btnLogout" class="menubtn" runat="server" Text="Logout" OnClick="btnLogout_Click" />
+        </div>
+
+        <div class="dropdown">                
+        <asp:Button ID="btnLogin" class="menubtn" runat="server" Text="Login" OnClick="btnLogin_Click" />
+        </div>
+
+        <br />
+
+
+        <div class = "container">
+            
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+               
+
+                    
+                  
+            </asp:ContentPlaceHolder>
+
+            <div class="footer">
+
+                <asp:ImageButton ID="imgSocialMedia" runat="server" Height="50px" ImageUrl="~/images/extra/home/footer/socialMedia.png" PostBackUrl="https://www.facebook.com/driftworks/" />
+            
+            </div>
+
+        </div>
+</div>
+
+
+       
+        
+
+
+
+
+
+    
+    </form>
+</body>
+</html>

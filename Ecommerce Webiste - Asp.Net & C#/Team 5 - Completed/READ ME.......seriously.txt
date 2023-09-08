@@ -1,0 +1,24 @@
+VISUAL STUDIO (ASP.NET)
+
+
+Site location 
+In Folder
+
+"Team 5 - Completed\testing\TEST SITE\Team 5 - Driftworks\Driftworks"
+
+The Logins are self explanatory and held in the database
+
+Login in as a user first please 
+
+
+expected problem - this wasnt the completed iteration 
+
+adding the same product at different times in any qauntity will cause a crash as because of the product id at the checkout stage (stupid to even be doing that so don't worry)
+
+
+* MUST ! 
+change the database loaction in the main config file to where you are storing the database
+
+
+* further
+any problem experienced while using the admin user can and probably be fixed by the F5 key or browser refresh 

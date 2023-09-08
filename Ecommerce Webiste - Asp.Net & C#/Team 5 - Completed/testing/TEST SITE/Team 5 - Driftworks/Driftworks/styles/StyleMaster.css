@@ -1,0 +1,300 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+	background-repeat:repeat-x;
+	margin:0;
+    padding:0;
+    top:0;
+    text-align: center;
+    color: #64BFF0;
+}
+
+.wrapper 
+{
+	border-bottom: #0000cc 0px solid; 
+	border-left: #0000cc 0px solid; 
+	margin: 0px auto 0px auto;
+	background-color:white;
+	width: 950px;
+	border-top: #0000cc 0px solid; 
+	border-right: #0000cc 0px solid;
+	position:relative;
+}
+
+.box 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+	margin: 10px; 
+	width: 750px;
+	background-position: 0px 0px; 
+	float: left 
+}
+
+.innerbox 
+{
+	border-bottom: 0px; 
+	border-left: 0px; 
+	padding-bottom: 7px; 
+	margin: 0px; 
+	padding-left: 7px; 
+	width: 736px; 
+	padding-right: 7px; 
+	background-position: 0px 100%; 
+	border-top: 0px; 
+	border-right: 0px; 
+	padding-top: 7px
+}
+
+.clearfloat 
+{
+	border-bottom: 0px; 
+	border-left: 0px; 
+	background-color: #ffcccc; 
+	margin: 10px;
+	clear: both; 
+	border-top: 0px; 
+	border-right: 0px
+}
+
+.menubox 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px; width: 150px; 
+	background-position: 0px 0px;
+	background-color:inherit; 
+	
+}
+
+.menuinnerbox 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    padding: 7px;
+    margin: 0px; 
+	width: 923px; 
+	background-position: 0px 100%;
+    height: 16px;
+}
+
+.header
+{
+    width: 950px;
+    height: 87px;
+    background-color:#64bff0;
+    margin:0;padding:0;top:0;
+    text-align:right;
+}
+
+.title
+{
+  font-size: 40px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #000080; 
+  text-align: right;  
+}
+
+.breadcrumb
+{
+   border-bottom: #0000cc 0px solid; 
+	text-align: left; 
+	border-left: #0000cc 0px solid; 
+	margin: 0px auto 0px auto;
+	background-color: #ffcccc;
+	width: 750px;height:30px; 
+	background-repeat: no-repeat; 
+	border-top: #0000cc 0px solid; 
+	border-right: #0000cc 0px solid;
+	float:left 
+}
+
+.threeColumnbox 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: #ffcccc;
+	margin: 10px; width: 230px;
+	background-position: 0px 0px; 
+	float: left 
+}
+
+.pagetitle
+{
+  font-size: x-large; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #63BDED; 
+  text-align: center;
+    text-decoration: underline;
+}
+
+.threeColumninnerbox 
+{
+	border-bottom: 0px; 
+	border-left: 0px; 
+	padding-bottom: 7px; 
+	margin: 0px; 
+	padding-left: 7px; 
+	width: 216px; 
+	padding-right: 7px; 
+	background-position: 0px 100%; 
+	border-top: 0px; 
+	border-right: 0px; 
+	padding-top: 7px
+}
+
+.twoColumnbox 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+	margin: 10px; width: 350px;
+	background-repeat: no-repeat; 
+	background-position: 0px 0px; 
+	background-color: #ffcccc;
+	float: left; 
+        width: 950px;
+}
+
+.twoColumninnerbox 
+{
+	border-bottom: 0px; 
+	border-left: 0px; 
+	padding-bottom: 7px; 
+	margin: 0px; 
+	padding-left: 7px; 
+	width: 336px; 
+	padding-right: 7px; 
+	background-repeat: no-repeat; 
+	background-position: 0px 100%; 
+	border-top: 0px; 
+	border-right: 0px; 
+	padding-top: 7px
+}
+
+
+.numberColumnbox 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+	margin: 10px; width: 130px;
+	background-position: 0px 0px; 
+	float: left ;
+	background-color: #ffcccc;
+}
+
+.numberColumninnerbox 
+{
+	border-bottom: 0px; 
+	border-left: 0px; 
+	padding-bottom: 7px; 
+	margin: 0px; 
+	padding-left: 7px; 
+	width: 116px; 
+	padding-right: 7px; 
+	
+	background-position: 0px 100%; 
+	border-top: 0px; 
+	border-right: 0px; 
+	padding-top: 7px
+}
+
+.container 
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+	margin:0px; width: 948px;
+	background-position: 0px 0px; 
+	float: left; 
+    background-color: white;
+}
+
+.footer 
+{
+    width: 950px;
+    
+    background-color:#64bff0;
+    margin:0;padding:0;top:0;
+    text-align:center;
+}
+
+
+
+
+
+/* Dropdown Button */
+.menubtn {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #64bff0;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+ .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+ .dropdown-content a:hover {
+     background-color: #64bff0;
+     color: white;
+     
+ }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .menubtn {
+    background-color: grey;
+    color: #ffffff;
+}
+
+.nav{
+    background-color: lightgrey;
+}
+
+
+.columntitle{
+    text-align: center;
+    background-color: #64BFF0;  
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+
+

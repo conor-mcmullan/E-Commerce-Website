@@ -1,0 +1,23 @@
+
+Car type:			Coupe
+Curb weight:			1668 kg (3677 lbs)
+Power / weight:		240 ps (237 bhp) / t
+Torque / weight:		321 Nm (237 lb-ft) / t
+Introduced:			2006
+Origin country:		United States
+
+Performance
+Top speed:			274 kph (170 mph)
+0 - 100 kph:			4.6 s
+0 - 100 mph:			11.2 s
+1/8 mile:			8.6 s @ 87.6 mph
+1/4 mile:			13.3 s @ 108.1 mph
+
+Powertrain
+Engine type	V8
+Displacement:		6.0 l (366 ci)
+Power:				400 ps (395 bhp / 294 kw)
+Torque:				536 Nm (395 lb-ft)
+Power / liter:			67 ps (66 hp)
+Transmission:		6
+Layout:				front engine, rear wheel drive

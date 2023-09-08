@@ -1,0 +1,48 @@
+
+Engine
+Type:					Twin Inline-6 (RB26DETT) 
+Valvetrain:				DOHC 4-valves/cyl.
+Displacement [cc]:		2,568	
+Bore & Stroke [mm]:		86.0 x 73.7
+Power [hp at rpm]:		280 
+Compression Ratio:		8.5:1
+Torque [rpm]:			264 
+Redline [rpm]:			8,000
+
+Transmission
+Type:					5-speed manual
+Ratios:					3.21, 1.93, 1.30
+Final Drive:				4.11
+
+General Information Base V-Spec
+Layout:					front-engine
+Driveline:				AWD	AWD
+Fuel Capacity (L):			65	
+
+Weight & Towing
+Curb Weight (kg):			1,530
+
+Steering
+Steering:				Rack & Pinion; 
+Turning Circle (m):		11.4
+
+Suspension
+Front suspension:		Multi-link
+Rear suspension:			Multi-link
+
+Brakes
+Front Brakes:			12.8 in. (324 mm)
+Rear Brakes:				11.8 in. (300 mm)
+
+Exterior Dimensions Base V-Spec
+Length (cm):				4,675
+Width (cm):				1,780
+Height (cm):				1,360
+Wheelbase (cm):			2,720
+Front Track (cm):			1,480
+Rear Track (cm):			1,490
+
+Performance Base V-Spec
+0 - 60 mph (s):			4.9
+0 - 100 mph (s):			12.9
+1/4 mile (s):				14.0

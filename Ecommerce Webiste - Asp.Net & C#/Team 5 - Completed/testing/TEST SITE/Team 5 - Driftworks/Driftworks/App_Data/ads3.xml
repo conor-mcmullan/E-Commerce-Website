@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <Advertisements>
+
+    <Ad>
+      <ImageUrl>~/images/categories/steeringwheels/1.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>70</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/steeringwheels/2.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>60</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/steeringwheels/3.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>50</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/steeringwheels/4.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>100</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/wheelnuts/1.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>100</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/wheelnuts/2.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>50</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/wheelnuts/3.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>60</Impressions>
+    </Ad>
+
+    <Ad>
+      <ImageUrl>~/images/categories/wheelnuts/4.jpg</ImageUrl>
+      <NavigateUrl>~/Products.aspx</NavigateUrl>
+      <Impressions>70</Impressions>
+    </Ad>
+    
+  </Advertisements>
